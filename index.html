@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    
+    <title>Variables - Exercise 2</title>
+</head>
+<body>
+
+<header>
+   <h1>Join our Course to Learn <img src="sass.svg" alt=""> </h1>
+   
+</header>
+
+
+<div class="mainbtn">
+  
+     <a href="
+     #" class="btn">Home</a>
+     <a href="#" class="btn">Discover</a>
+     <a href="#" class="btn">Contact us</a>
+     <a href="#" class="btn">Services</a>
+ </div>
+
+<main>
+    <div class="cards">
+
+       <div class="card move1">
+          <h4>Drawing is Smartness</h4>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+           <a href=""> Learn More!</a>
+       </div>
+
+        <div class="card move2">
+            <h4>Blue is Life</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <a href=""> Learn More!</a>
+        </div>
+
+        <div class="card move3">
+            <h4>Calm is Wise</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <a href=""> Learn More!</a>
+        </div>
+    </div>
+
+    <div class="portion">
+        <figure><img src="https://www.gstatic.com/webp/gallery/4.jpg" alt="Image of a tree" style="width:28vw;"></figure>
+        <article>
+            <h3>Article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi quae dicta atque neque quia, rem cumque deserunt nostrum aliquid magni soluta, iste nulla repellat id voluptate corporis alias explicabo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, eius eum consectetur quos exercitationem eligendi molestias voluptate, est doloribus optio cumque, tempore labore odit dolorum aspernatur in beatae repellendus natus.</p>
+        </article>
+    </div>
+
+</main>
+    
+
+<!-- the slide show -->
+
+<div class="w3-content w3-section">
+    <img class="mySlides" src="sassconference.jpg" style="width:100%">
+    <img class="mySlides" src="sassconference2.jpg" style="width:100%">
+    <img class="mySlides" src="sassdevelopment.jpg" style="width:100%">
+    <img class="mySlides" src="sasx-css.png" style="width:90%">
+  </div>
+
+<!-- ____________________________
+ -->
+    <aside>
+        <h3>Something else on the side!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat sit numquam, quam sed atque molestiae eaque eveniet reiciendis dolorem assumenda iure ab adipisci rem neque dicta quia. Sed, quod.</p>
+    </aside>
+
+    <section>
+    <h3>Section</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nemo earum repellat perferendis, dolorum saepe nostrum quidem consequuntur dignissimos maxime blanditiis aspernatur quisquam eius, in esse eligendi, reprehenderit distinctio possimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, pariatur! Vero, laudantium provident nesciunt alias consequatur numquam distinctio, cumque dolores quia dolorum nobis libero nam, deserunt dicta. Accusamus, itaque excepturi!</p>
+    </section>
+
+<footer>
+    <ul>
+    <li><a href="#">Github</a></li>
+    <li><a href="#">Codepen</a></li>
+    <li><a href="#">LinkedIn</a></li>
+    </ul>
+</footer>
+
+</body>
+ <!--  the slide show -->
+ <script>
+    var myIndex = 0;
+    carousel();
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 5000); // Change image every 2 seconds
+    }
+    </script>
+</html>

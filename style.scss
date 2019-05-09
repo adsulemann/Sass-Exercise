@@ -1,0 +1,204 @@
+
+
+// $maincolor: #444;
+// $secondcolor:blue;
+// $mainfont-family: 'Libre Franklin', sans-serif;
+// $secontfont-family: 'Akronim', cursive;
+
+// $link-color1: rgb(230, 220, 220);
+// $link-color2: #444;
+
+
+// $background1:linear-gradient(top, #b3dced 0%,
+// #29b8e5 29%,
+// #bce0ee 100%); /* FF3.6-15 */
+
+// $background2: linear-gradient(top, #b5bdc8 0%,
+//  #828c95 36%,
+//  #28343b 100%); /* FF3.6-15 */
+
+//  $font-h1: 2em;
+//  $font-links:1.8em;
+//  $fonttext:
+
+//  $box-shadow: 9px 6px 19px 7px #444;
+//  $text-center: center;
+//  $text-justify: justify;
+
+// body{
+//    background: $background1;
+//    font-family: $mainfont-family;
+// }
+
+// header{
+//    text-align: $text-center;
+//    padding: 20px;
+// }
+
+// nav{
+//    ul{
+//        text-align: $text-center;
+//        list-style-type: none;
+//        li{
+//            display: inline-block;
+//            a{
+//                text-decoration: none;
+//                padding: 16px;
+//                font-weight: 700;
+//                font-family: $secontfont-family;
+//                color: $link-color1;
+
+//            }
+//        }
+//    }
+// }
+
+// main{
+//    .cards{
+//        margin-top:16px;
+//        display: flex;
+//        text-align: $text-center;
+//        card{
+//            border: 1px solid #444;
+//            border-radius: 25px;
+//            flex: 33.3%;
+//            padding: 20px;
+//            margin: 20px;
+//            box-shadow: $box-shadow;
+
+//            p{
+//                text-align: $text-center;
+//                font-size: $fonttext;
+//            }
+
+//            p:hover{
+//                color: tomato;
+//            }
+//            button{
+//                cursor: pointer;
+//                padding: 5px;
+//                font-size: $font-links;
+//                background: $background2;
+//            }
+
+//            h4{
+//                font-size: 1.5em;
+//            }
+
+//            portion{
+//                display: flex;
+//                align-items: $text-center;
+
+//                img{
+//                    width: 20vw;
+//                }
+
+//                article{
+//                    text-align: $text-justify;
+//                    font-size: $fonttext;
+//                }
+//            }
+
+//        }
+
+//        aside,section{
+//            padding: 35px;
+//            font-size: $fonttext;
+//            text-align: $text-justify;
+//        }
+
+//        footer{
+//            padding-top: 50px;
+//            padd
+//        }
+//    }
+
+// }
+
+
+
+//HTML Code
+
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//    <meta charset="UTF-8">
+//    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+//    <link rel="stylesheet" href="style.css">
+//    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+//    <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+
+//    <title>Variables - Exercise 2</title>
+// </head>
+// <body>
+
+//    <header>
+//        <h1>Title</h1>
+//    </header>
+
+// <nav>
+//    <ul>
+//    <li><a href="#">Home</a></li>
+//    <li><a href="#">About</a></li>
+//    <li><a href="#">Contact</a></li>
+// </ul>
+// </nav>
+
+//    <main>
+//    <div class="cards">
+
+//    <div class="card">
+//        <h4>Card 1</h4>
+//         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+//         <button>Learn More!</button>
+//    </div>
+
+//    <div class="card">
+//            <h4>Card 1</h4>
+//            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+//            <button>Learn More!</button>
+//    </div>
+
+//    <div class="card">
+//            <h4>Card 1</h4>
+//            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+//            <button>Learn More!</button>
+//    </div>
+// </div>
+
+// <div class="portion">
+//        <figure><img src="https://www.gstatic.com/webp/gallery/4.jpg
+// https://www.gstatic.com/webp/gallery/4.jpg
+// " alt="Image of a tree"></figure>
+//        <article>
+//            <h3>Article</h3>
+//            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi quae dicta atque neque quia, rem cumque deserunt nostrum aliquid magni soluta, iste nulla repellat id voluptate corporis alias explicabo.</p>
+//            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, eius eum consectetur quos exercitationem eligendi molestias voluptate, est doloribus optio cumque, tempore labore odit dolorum aspernatur in beatae repellendus natus.</p>
+//        </article>
+//    </div>
+
+//    </main>
+
+//    <aside>
+//        <h3>Something else on the side!</h3>
+//        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat sit numquam, quam sed atque molestiae eaque eveniet reiciendis dolorem assumenda iure ab adipisci rem neque dicta quia. Sed, quod.</p>
+//    </aside>
+
+//    <section>
+//    <h3>Section</h3>
+//    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nemo earum repellat perferendis, dolorum saepe nostrum quidem consequuntur dignissimos maxime blanditiis aspernatur quisquam eius, in esse eligendi, reprehenderit distinctio possimus.</p>
+//    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, pariatur! Vero, laudantium provident nesciunt alias consequatur numquam distinctio, cumque dolores quia dolorum nobis libero nam, deserunt dicta. Accusamus, itaque excepturi!</p>
+//    </section>
+
+// <footer>
+//        <ul>
+//                <li><a href="#">Github</a></li>
+//                <li><a href="#">Codepen</a></li>
+//                <li><a href="#">LinkedIn</a></li>
+//            </ul>
+// </footer>
+
+// </body>
+// </html>
